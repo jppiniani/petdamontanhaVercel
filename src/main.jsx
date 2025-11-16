@@ -10,7 +10,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.js';
 import './index.css';
 import App from './App.jsx';
 
-import { AuthProvider } from './context/AuthContext.jsx';
+// import { AuthProvider } from './context/AuthContext.jsx';
 
 // Importação das páginas
 import Inicio from './pages/Inicio/index.jsx';
@@ -20,8 +20,8 @@ import Servicos from './pages/Servicos/index.jsx';
 import Fotos from './pages/Fotos/index.jsx';
 import Padaria from './pages/Padaria/index.jsx';
 import Contato from './pages/Contato/index.jsx';
-import Entrar from './pages/Entrar/index.jsx';
-import Cadastrar from './pages/Cadastrar/index.jsx';
+// import Entrar from './pages/Entrar/index.jsx';
+// import Cadastrar from './pages/Cadastrar/index.jsx';
 import PaginaErro from './pages/PaginaErro/index.jsx';
 
 const router = createBrowserRouter([
@@ -58,22 +58,20 @@ const router = createBrowserRouter([
         path: "contato", 
         element: <Contato />,
       },
-      {
-        path: "entrar", 
-        element: <Entrar />,
-      },
-      {
-        path: "cadastrar",
-        element: <Cadastrar />
-      },
+      // {
+      //   path: "entrar", 
+      //   element: <Entrar />,
+      // },
+      // {
+      //   path: "cadastrar",
+      //   element: <Cadastrar />
+      // },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AuthProvider>
-      <RouterProvider router={router} />
-    </AuthProvider>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

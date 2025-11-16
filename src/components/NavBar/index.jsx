@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav, Container, NavDropdown, Button } from 'react-bootstrap';
 import './style.css';
 import PetDaMontanhaLogo from '../../assets/images/PetDaMontanhaLogo2.png';
-import { useAuth } from '../../context/AuthContext';
+// import { useAuth } from '../../context/AuthContext';
 
 export default function NavBar() {
     const location = useLocation();
@@ -11,11 +11,11 @@ export default function NavBar() {
     const [expanded, setExpanded] = useState(false);
     const handleNavClose = () => setExpanded(false);
 
-    const { user, logout } = useAuth();
-    const handleLogout = () => {
-      logout();
-      handleNavClose(); // Fecha o menu (em telas pequenas)
-    }
+    // const { user, logout } = useAuth();
+    // const handleLogout = () => {
+    //   logout();
+    //   handleNavClose(); // Fecha o menu (em telas pequenas)
+    // }
 
     return (
         <Navbar 
@@ -64,12 +64,12 @@ export default function NavBar() {
                         </Nav.Link>
                     </Nav>
 
-                                        <Nav className="nav-botao-entrar"> 
+                    {/* <Nav className="nav-botao-entrar"> 
                       {user ? (
                         // Se o usuário ESTIVER LOGADO
                         <NavDropdown title={`Olá, ${user}!`} id="user-menu" align="end">
                           {/* Você pode adicionar mais links aqui (ex: /perfil) */}
-                          <NavDropdown.Item onClick={handleLogout}>
+                          {/* <NavDropdown.Item onClick={handleLogout}>
                             Sair
                           </NavDropdown.Item>
                         </NavDropdown>
@@ -79,7 +79,7 @@ export default function NavBar() {
                             Entrar
                         </Nav.Link>
                       )}
-                    </Nav>
+                    </Nav> */}
                     
                 </Navbar.Collapse>
             </Container>
