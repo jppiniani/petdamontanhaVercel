@@ -1,0 +1,62 @@
+.footer{
+    background: #966631 /*#c79a69*/;
+    padding-block: 35px;
+}
+.footer p {
+    color: rgb(255, 255, 255) !important;
+}
+
+.footer .footer-heading {
+    color: rgb(255, 255, 255);
+}
+
+.footer ul.list-unstyled li a {
+    color: rgb(255, 255, 255);
+}
+
+
+.footer ul.list-unstyled li :hover {
+  color: #91c582;
+}
+
+.footer ul.list-unstyled a :hover {
+  color: #91c582;
+}
+
+
+.footer .block-23 ul li a {
+    color: rgb(255, 255, 255);
+}
+
+
+.block-23 ul li span {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+.footer .block-23 ul li .icon {
+    color: rgb(255, 255, 255);
+    margin-right: 0px;   
+}
+
+
+.linkColorlib 
+{
+    color : rgb(255, 255, 255);
+}
+
+.linkColorlib:hover
+{
+    color :#91c582;
+}
+
+.copyright{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.listaParaEspacamento
+{
+    margin-top: 15px;
+}
+

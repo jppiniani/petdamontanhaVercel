@@ -1,0 +1,164 @@
+/* Eu fiz esses arquivos css em pastas para caso haja alguma alteração específica no css para não ficar mexendo no bootstrap */
+.img-fluid{
+    max-width: 70%;
+    margin-top: 7px;
+    position: static;
+    transform: translateY(20px);
+    animation: slideIn 1.4s forwards;
+}
+
+.img-fluid1 {
+    max-width: 98%;
+    height: auto;
+    margin-top: 44px;
+    
+}
+
+.img-fluid2 {
+    max-width: 98%;
+    height: auto;
+    margin-top: 44px;
+    
+}
+
+.img-fluid3 {
+    max-width: 98%;
+    height: auto;
+    margin-top: 44px;
+    
+}
+
+.ftco-section{
+    padding: 7em 0;
+}
+
+.sidebar-box {
+    margin-bottom: 40px;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+}
+
+.categories li, .sidelink li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    list-style: none;
+}
+
+.titulo-secao
+{
+    color: white;
+    
+}
+
+a {
+    color: #1a6949;
+    text-decoration: underline;
+    
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px); /* Ponto inicial: 20px para baixo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Ponto final: posição original */
+  }
+}
+
+.sobre1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+.sobre2 {
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.sobre3 {
+    color:white;
+    margin-block: 20px;
+    
+}
+.texto1 {
+    color: #ffffffff;
+    
+}
+
+.boardTexto 
+{
+    background-color: #6B9160 !important;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.boardTexto2
+{
+    background-color: #6B9160 !important;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom : 2rem;
+    display: inline-block;
+}
+
+.servicos 
+{
+    color:white;
+}
+
+.servicos:hover 
+{
+    color:#91c582
+}
+
+
+
+.mr-2 
+{
+    color:white;
+}
+
+.mr-2:hover
+{
+    color:#91c582;
+}
+
+.servicos{
+    padding-left: 0;
+}
+
+.img-logo{
+    display:flex;
+    justify-content:center;
+}
+
+/*.boardTexto5 */ /*Esse boardTexto5 é para a parte contato. Até tentei importar o css do próprio contato porém não tava indo. Pelo visto, esse arquivo css do sobre funciona para todas as páginas kkkk*/
+/* {
+    background-color: #6B9160 !important;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: auto;
+    margin-bottom : 2rem;
+    margin-top: 2rem;
+    width: 30%;
+} */
+
+/* .boardMap 
+{
+    background-color: #6B9160 !important;
+    border-radius: 10px;
+    padding: 2.5rem;
+    margin-bottom : 2rem;
+    margin-top: 2rem;
+    
+} */
+
+/* arrumei e coloquei no lugar certo (contato) ;)*/
